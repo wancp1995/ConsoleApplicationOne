@@ -1,0 +1,1 @@
+#define BOOL(X) _Generic((X), _Bool:"boolean", default: "not boolean")
